@@ -1,0 +1,38 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5
+        .row
+            .col-md-5
+                img(src="img/nosotros.jpg", alt="imagen sobre nosotros", class="img-fluid") 
+            .col-md-7 
+                h1 #{pagina}
+                blockquote  ipsum dolor sit amet consectetur adipisicing elit. Vel exercitationem, perferendis itaque laudantium aspernatur eum harum inventore cupiditate tenetur totam in maxime vero suscipit voluptatum? Similique enim consequuntur officiis assumenda.
+                p ipsum dolor, sit amet consectetur adipisicing elit. Totam illum vero quia amet aperiam. Voluptates molestias doloribus itaque numquam aut saepe, dolore sit suscipit perspiciatis dolores, delectus adipisci ea temporibus.
+                p ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sapiente reprehenderit a ab neque fuga, autem ipsa tenetur! Consectetur quis fuga voluptates debitis adipisci impedit laboriosam voluptas illum omnis maxime.
+                p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex numquam, exercitationem maiores dolore ipsa aliquid? Atque, voluptatibus. Voluptates quos velit alias nobis accusamus. Debitis velit dicta cupiditate commodi libero rem!
+                //- p Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum non maxime, similique dicta repellat dignissimos laudantium vero in eius quibusdam autem cum ratione commodi fugiat mollitia ad minus explicabo praesentium.
+
+    .listado-iconos 
+        .container.mt-5.py-5.text-center 
+            .row 
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.            
+                
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono destinos", class="img-fluid mb-4")
+                    h2.mb-4 Mejores destinos
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.            
+                
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img-fluid mb-4")
+                    h2.mb-4 Los mejores precios
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.            
+
+    //- img(src="img/cupon.jpg", alt="Cupón").img-fluid
+    //- pasando variables a la vista, dos formas:
+    //- p #{viajes} 
+    //- p=viajes 
+
